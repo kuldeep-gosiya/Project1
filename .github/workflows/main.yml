@@ -27,7 +27,7 @@ jobs:
         npm install
         npm run-script deploy
     - name: Deploy
-      uses: kuldeep-gosiya/github-pages-deploy-action@releases/v3
+      uses: https://github.com/kuldeep-gosiya/Project1.git/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
